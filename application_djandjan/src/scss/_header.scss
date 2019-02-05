@@ -1,0 +1,58 @@
+header {
+  overflow: hidden;
+  height: 200px;
+
+  .contain {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+      display: block;
+      position: relative;
+      right: 0;
+      li {
+        padding: 0;
+        background-color: white;
+        border-bottom: 0;
+        list-style-type: none;
+        display: inline-block;
+
+        a {
+          line-height: 200px;
+          background-color: $bleu;
+          color: white;
+          padding: 1rem 2rem;
+          margin: 0;
+          border-bottom: 2px solid white;
+
+
+          &:hover {
+            background-color: white;
+            color: $bleu;
+            border-bottom: 2px solid $bleu;
+          }
+          &.active {
+            background-color: $bleuFonce;
+            border-bottom: 2px solid $bleu;
+            &:hover {
+              background-color: white;
+              color: $bleu;
+              border-bottom: 2px solid $bleu;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.invisible {
+  display: none;
+}
+.visible {
+  display: none;
+}

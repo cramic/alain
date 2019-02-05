@@ -1,0 +1,17 @@
+<h1>Les chiens de notre élevage</h1>
+
+<section class="chiensElevage">
+  <div class="carteID">
+   
+    <div class="chien" *ngFor="let dog of dogs">
+      <h2>{{dog.name}}</h2>
+      <img src="../../assets/img/elevage/{{dog.picture}}" alt="">
+      <ul>
+        <li>Naissance : {{dog.birthday}}</li>
+        <li>Affixe : {{dog.affixe}}</li>
+        <li>Mère : {{dog.mother}}</li>
+        <li>Père : {{dog.father}}</li>
+      </ul>
+    </div>
+  </div>
+</section>

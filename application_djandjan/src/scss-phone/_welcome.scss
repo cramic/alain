@@ -1,0 +1,36 @@
+.wrapper{
+
+}
+.accueil{
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("./assets/img/chien_mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: 85vh;
+  background-position-x: right;
+
+  img{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width:95%;
+  }
+
+  
+  h1{
+      line-height: 1.5rem;
+      padding: 0;
+  }
+  h2{
+      font-size:0.6rem;
+      line-height: 0.6rem;
+      span{
+          font-size: 1.5rem;
+      }
+  }
+
+}

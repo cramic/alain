@@ -1,0 +1,28 @@
+h2 .dateNichee {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.nichee {
+
+  
+
+  .description {
+    
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .mere, .pere {
+
+      img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 300px;
+        background-size: cover;
+      }
+    }
+  }
+}

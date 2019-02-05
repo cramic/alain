@@ -1,0 +1,37 @@
+h2 .dateNichee {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.nichee {
+  max-width: 1200px;
+
+
+
+  .description {
+    
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .mere, .pere {
+      width: 45%;
+      margin: 1rem;
+      overflow: hidden;
+
+      img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 350px;
+        background-size: cover;
+      }
+    }
+  }
+}

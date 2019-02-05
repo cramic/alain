@@ -1,0 +1,67 @@
+/****************************************************
+=============  Version smartphone ===================
+****************************************************/
+
+@import './scss-phone/variables';
+
+@import './scss-phone/balises_standard';
+
+@import './scss-phone/welcome';
+
+@import './scss-phone/header';
+
+@import './scss-phone/history';
+
+@import './scss-phone/_chiensElevage';
+
+@import './scss-phone/nichees';
+
+@import './scss-phone/footer';
+
+/****************************************************
+=============  Version tablette ===================
+****************************************************/
+@media screen and (min-width: 716px){
+
+    @import './scss-tablette/variables';
+    
+    @import './scss-tablette/balises_standard.scss';
+    
+    @import './scss-tablette/welcome';
+    
+    @import './scss-tablette/header';
+    
+    @import './scss-tablette/history';
+    
+    @import './scss-tablette/_chiensElevage';
+    
+    @import './scss-tablette/nichees';
+    
+    @import './scss-tablette/footer';
+    
+    } // fin tablette
+
+/****************************************************
+=============  Version ordinateur ===================
+****************************************************/
+@media screen and (min-width: 900px){
+
+    @import './scss/variables';
+    
+    @import './scss/balises_standard.scss';
+    
+    @import './scss/welcome';
+    
+    @import './scss/header';
+    
+    @import './scss/history';
+    
+    @import './scss/_chiensElevage';
+    
+    @import './scss/nichees';
+    
+    @import './scss/footer';
+    
+    } // fin ordi
+
+

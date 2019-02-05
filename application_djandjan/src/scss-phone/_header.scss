@@ -1,0 +1,83 @@
+header {
+  // overflow: hidden;
+  height: 200px;
+
+  .contain {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+      width: 60%;
+      position: absolute;
+      right: 50px;
+      padding: 0;
+      margin: 0;
+      li {
+        margin: 0;
+        padding: 1rem;
+        background-color: $bleu;
+        border-bottom: 3px solid white;
+        list-style-type: none;
+        text-align: right;
+        a {
+          margin: 0;
+          padding: 1rem;
+          background-color: $bleu;
+          color: white;
+        }
+      }
+    } 
+    
+    #menuBurger {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      margin: 0 5px 0 0;
+      right: 5px;
+      background-color: $bleu;
+      border-radius: 5px;
+      .traitBurger {
+        position: absolute;
+        width: 30px;
+        height: 4px;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 3px;
+        background-color: white;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 30px;
+          height: 4px;
+          top: 100%; left: 50%;
+          transform: translate( -50%, 100%);
+          top: 6px;
+          border-radius: 3px;
+          background-color: white;
+        }
+          &::after {
+          content: "";
+          position: absolute;
+          width: 30px;
+          height: 4px;
+          top: -100%; left: 50%;
+          transform: translate( -50%, -100%);
+          top: -6px;
+          border-radius: 3px;
+          background-color: white;
+        }
+      }
+      
+    }
+  }
+}
+.invisible {
+  display: none;
+}
+.visible {
+  display: block;
+}

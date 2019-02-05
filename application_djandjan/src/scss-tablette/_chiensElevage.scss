@@ -1,0 +1,36 @@
+.chiensElevage {
+  max-width: 1200px;
+  display: flex;
+
+  .carteID {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+	  justify-content: space-between;
+
+    .chien {
+      position: relative;
+      border: 2px solid $bleu;
+      width: 45%;
+      margin: 1rem;
+      overflow: hidden;
+      &:last-of-type{
+        padding-bottom: 4rem;
+      }
+
+      img {
+        position: relative;
+        // width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 400px;
+        background-size: cover;
+      }
+    }
+  }
+}

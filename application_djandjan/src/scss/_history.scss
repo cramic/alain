@@ -1,0 +1,26 @@
+#historique {
+  max-width: 1200px;
+  margin: 2rem auto 0 auto;
+
+  img {
+    border: 2px solid $bleu;
+    width: 30%;
+    float: left;
+    margin: 0;
+
+    &:last-of-type {
+      float: right;
+      margin: 0;
+    }
+  }
+  p {
+    border: 2px solid red;
+    width: 25%;
+    font-size: 1rem;  
+    strong {
+      font-size: 1rem;
+    }
+  }
+
+
+}

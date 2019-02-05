@@ -1,0 +1,17 @@
+<div class="contain">
+  <a [routerLink]="['/welcome']">
+    <img src="./assets/img/logoDjandjan.svg" alt="Logo Malinois du Djandjan">
+  </a>
+  <nav id="menu" class="invisible">
+    <ul>
+      <li><a [routerLink]="['/nichees']" routerLinkActive="active">Nichées</a></li>
+      <li><a [routerLink]="['/chiens']" routerLinkActive="active">Chiens de l'élevage</a></li>
+      <li><a [routerLink]="['/history']" routerLinkActive="active">Historique</a></li>
+    </ul>
+  </nav>
+
+  
+  <a id="menuBurger" class="visible">
+    <span class="traitBurger"></span>
+  </a>
+</div>

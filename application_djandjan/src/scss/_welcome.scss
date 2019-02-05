@@ -1,0 +1,37 @@
+.wrapper{
+
+}
+.accueil{
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1200px;
+  background-image: url("./assets/img/chien_welcome.jpg");
+  background-size: cover;
+  height:80vh;
+  img{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width:60%;
+  }
+
+  width: 97%;
+  margin: 0 auto;
+  padding: 0;
+  color:$bleu;
+  h1{
+      line-height: 1.5rem;
+      padding: 0;
+  }
+  h2{
+      font-size:0.6rem;
+      line-height: 0.6rem;
+      span{
+          font-size: 1.5rem;
+      }
+  }
+
+}
