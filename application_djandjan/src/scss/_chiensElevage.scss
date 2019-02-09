@@ -11,23 +11,19 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-	  justify-content: space-between;
+	  // justify-content: space-between;
 
     .chien {
       position: relative;
       border: 2px solid $bleu;
-      width: 30%;
-      margin: 1rem;
+      width: 29%;
+      // margin: 1rem;
       overflow: hidden;
       &:last-of-type{
         padding-bottom: 4rem;
       }
 
       img {
-        position: relative;
-        // width: 100%;
-        left: 50%;
-        transform: translateX(-50%);
         height: 400px;
         background-size: cover;
       }
