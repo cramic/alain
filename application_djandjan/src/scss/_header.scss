@@ -27,22 +27,28 @@ header {
           background-color: $bleu;
           color: white;
           padding: 1rem 2rem;
-          margin: 0;
-          border-bottom: 2px solid white;
+          margin: 0 2px;
+          border-bottom: 2px solid $bleu;
+          border-top: 2px solid $bleu;
+
 
 
           &:hover {
             background-color: white;
             color: $bleu;
             border-bottom: 2px solid $bleu;
+            border-top: 2px solid $bleu;
           }
           &.active {
             background-color: $bleuFonce;
             border-bottom: 2px solid $bleu;
+            border-top: 2px solid $bleu;
             &:hover {
               background-color: white;
               color: $bleu;
               border-bottom: 2px solid $bleu;
+              border-top: 2px solid $bleu;
+
             }
           }
         }

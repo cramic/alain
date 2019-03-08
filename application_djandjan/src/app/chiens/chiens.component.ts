@@ -13,11 +13,8 @@ export class ChiensComponent implements OnInit {
 
   dogs: any[];
 
-  constructor(private chiensElevageService: ChiensElevageService) { 
-    
+  constructor(private chiensElevageService: ChiensElevageService) {
    }
-  
-  
   ngOnInit() {
 
     this.dogs = this.chiensElevageService.dogs;

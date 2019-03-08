@@ -1,0 +1,17 @@
+<h1>Les mâles reproducteurs de notre élevage</h1>
+
+<section class="chiensElevage">
+  <div class="carteID">
+   
+    <div class="chien" *ngFor="let male of males">
+      <h2>{{male.name}}</h2>
+      <img src="assets/img/elevage/{{dog.picture}}" alt="">
+      <ul>
+        <li>Naissance : {{male.birthday}}</li>
+        <li>Affixe : {{male.affixe}}</li>
+        <li>Mère : {{male.mother}}</li>
+        <li>Père : {{male.father}}</li>
+      </ul>
+    </div>
+  </div>
+</section>

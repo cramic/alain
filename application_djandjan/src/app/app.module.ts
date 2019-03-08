@@ -10,6 +10,8 @@ import { ChiensComponent } from './chiens/chiens.component';
 import { NicheesComponent } from './nichees/nichees.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ChiensElevageService } from './services/chiens-elevage.service';
+import { MaleComponent } from './male/male.component';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ChiensElevageService } from './services/chiens-elevage.service';
     FooterComponent,
     ChiensComponent,
     NicheesComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    MaleComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
